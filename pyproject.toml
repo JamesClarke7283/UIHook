@@ -30,7 +30,7 @@ py-modules = ["cli", "driver", "uihook"]
 package-dir = { "" = "src" }
 
 [tool.setuptools_scm]
-write_to = ""
+version_scheme = "no-guess-dev"
 
 [project.scripts]
 uihook = "cli:main"
