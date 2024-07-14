@@ -26,9 +26,11 @@ homepage = "https://github.com/JamesClarke7283/UIHook"
 repository = "https://github.com/JamesClarke7283/UIHook"
 
 [tool.setuptools]
-packages = ["uihook"]
+py-modules = ["cli", "driver", "uihook"]
 package-dir = { "" = "src" }
-include-package-data = true
+
+[tool.setuptools_scm]
+write_to = ""
 
 [project.scripts]
-uihook = "uihook.cli:main"
+uihook = "cli:main"
