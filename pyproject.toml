@@ -18,7 +18,8 @@ dependencies = [
     "requests",
     "python-dotenv",
     "pydantic",
-    "customtkinter"
+    "customtkinter",
+    "hypercorn"
 ]
 
 [project.urls]
