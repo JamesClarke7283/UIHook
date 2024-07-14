@@ -30,8 +30,5 @@ packages = ["uihook"]
 package-dir = { "" = "src" }
 include-package-data = true
 
-[tool.setuptools_scm]
-write_to = ""
-
 [project.scripts]
 uihook = "uihook.cli:main"
